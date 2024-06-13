@@ -17,7 +17,7 @@ class _SplashPageState extends State<SplashPage> {
     Future.delayed(const Duration(seconds: 2), () async {
       Navigator.pushReplacementNamed(
         context,
-        '/tab',
+        '/main_tab',
       );
     });
   }
