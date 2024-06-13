@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
           child: child!,
         );
       },
-      home: Container(),
+      home: const SplashPage(),
     );
   }
 }
