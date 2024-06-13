@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pharmabros/src/config/const/color_util.dart';
 
 class SplashPage extends StatefulWidget {
   /// 맨처음 스플래시 페이지
@@ -25,7 +26,7 @@ class _SplashPageState extends State<SplashPage> {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: ColorUtil.white,
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
