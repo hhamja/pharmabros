@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pharmabros/src/feature/home/page/home_page.dart';
+import 'package:pharmabros/src/feature/my_info/page/my_info_page.dart';
 
 class MainTab extends StatefulWidget {
   /// 메인 탭 정의
@@ -44,7 +45,7 @@ class _MainTabState extends State<MainTab> with SingleTickerProviderStateMixin {
         controller: controller,
         children: const [
           HomePage(),
-          // MyPage(),
+          MyInfoPage(),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
